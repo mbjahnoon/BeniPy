@@ -1,6 +1,10 @@
-﻿namespace BhResturant.Products
+﻿using Abp.Application.Services.Dto;
+
+namespace BhResturant.Products
 {
-    public class PagedProductResultRequestDto
+    public class PagedProductResultRequestDto : PagedResultRequestDto
     {
+        public string Keyword { get; set; }
+
     }
 }
