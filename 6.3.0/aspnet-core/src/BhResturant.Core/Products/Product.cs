@@ -1,6 +1,6 @@
 ﻿using Abp.Domain.Entities;
 
-namespace LeesStore.Products
+namespace BhResturant.Products
 {
     public class Product : Entity<int>
     {

@@ -3,7 +3,7 @@ using Abp.AutoMapper;
 using System.ComponentModel.DataAnnotations;
 
 
-namespace LeesStore.Products.Dto
+namespace BhResturant.Products.Dto
 {
     [AutoMapFrom(typeof(Product))]
     [AutoMapTo(typeof(Product))]
