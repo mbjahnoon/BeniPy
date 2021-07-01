@@ -3,6 +3,7 @@ using Abp.Zero.EntityFrameworkCore;
 using BhResturant.Authorization.Roles;
 using BhResturant.Authorization.Users;
 using BhResturant.MultiTenancy;
+using BhResturant.Products;
 
 namespace BhResturant.EntityFrameworkCore
 {
@@ -14,5 +15,7 @@ namespace BhResturant.EntityFrameworkCore
             : base(options)
         {
         }
+        public DbSet<Product> Products { get; set; }
+
     }
 }

@@ -4,14 +4,16 @@ using BhResturant.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace BhResturant.Migrations
 {
     [DbContext(typeof(BhResturantDbContext))]
-    partial class BhResturantDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210701102528_Add-Product")]
+    partial class AddProduct
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
